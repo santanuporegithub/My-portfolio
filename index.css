@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.text-col {
+    padding-top: 80px;
+    width: 50%;
+    text-align: center;
+}
+
+.portfolio-button {
+    font-size: 19px; 
+    background-color: #4b6cc1;
+}
+
+.portfolio-button:hover{
+    font-size: 19px; 
+    background-color: white;
+    color: #4b6cc1 !important ;
+}
+ 
+.wp-btn{
+    font-size: 19px; 
+    margin-left: 8px;
+  background-color: #25D366;
+  color: white;
+ }
+ .wp-btn:hover{
+    font-size: 19px; 
+    color: #25D366 !important;
+    background-color:  white;
+ }
+
+i {
+    font-size: 25px;
+} 
+
+.portfolio-para {
+    color: #9aa5b1;
+    font-size: 25px;
+}
+
+.portfolio-head {
+    font-size: 35px;
+    color: white;
+
+}
+
+.span-ele {
+    color: #cced00;
+}
+
+.row-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.portfolio-img {
+    width: 80%;
+
+}
+@media screen and (max-width: 700px) {
+    .portfolio-img {
+        width: 80%; 
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding-left: 100px;
+    }
+  }
+
+@media screen and (min-width: 700px) {
+    .portfolio-img {
+        width: 95%; 
+       padding-top: 90px;
+    }
+  }
+
+.portfolio-bg {
+    background-color: #191a1d;
+    font-family: "Roboto";
+}
+
+.nav-icon {
+    border-style: solid;
+    border-width: auto;
+    border-color: #2c4686;
+    text-align: center;
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.nav-head {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.me-card2 {
+    background-color: #1f2933;
+}
+
+.card2-ele-cont {
+    border-radius: 10px;
+    background-color: #323f4b;
+    width: 30%;
+    text-align: center;
+
+}
+
+.card2-ele-img {
+    width: 50%; 
+}
+
+
+
+.card2-ele-head {
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+.para {
+    font-size: 15px;
+    color: #9aa5b1;
+}
+
+.me-card1-bg {
+    background-color: #323f4b;
+    font-family: "Roboto";
+}
+
+.head1 {
+    font-size: 30px;
+    color: #4b6cc1;
+}
+
+.head2 {
+    font-size: 24px;
+    color: white;
+}
+
+.sm-img {
+    width: 100%;
+    border-radius: 10px;
+}
+.portfolio-section{
+    background-color: #323f4b;
+    background-size: cover;
+    padding-bottom: 15px;
+}
+
+.nav-link{
+    color: #6382d1 !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 6px;
+}
+
+.active{
+    color: white !important;
+}
+
+.projects-bg {
+    background-color: #323f4b;
+    font-family: "Roboto";
+    
+}
+
+.projects-head1 {
+    font-size: 18px;
+    color: #cced00;
+}
+
+.projects-head2 {
+    font-size: 24px;
+    color: white;
+}
+
+.card1-bg {
+    background-color: #1f2933;
+    border-radius: 10px;
+}
+
+
+
+.card1-img {
+    width: 100%;
+}
+
+.card1-txt-cont-head1 {
+    color: black;
+    font-size: 15px;
+}
+
+.card1-txt-cont-head2 {
+    color: white;
+    font-size: 24px;
+}
+
+.card1-txt-cont-para {
+    color: #9aa5b1;
+    font-size: 20px;
+}
+
+.card1-txt-cont-read {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+/* footer */
+
+.footer-card1 {
+    background-color: #0d2436;
+    font-family: "Roboto";
+}
+
+.head {
+    font-size: 22px;
+    font-weight: bold;
+    color: #cced00;
+}
+
+.footer-para {
+    font-size: 17px;
+    color: #9aa5b1;
+}
+
+.footer-img {
+    background-image: url('./images/pp2.jpg');
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    border-radius: 200px;
+}
+
+.footer-card2 {
+    background-color: #001c32;
+}
